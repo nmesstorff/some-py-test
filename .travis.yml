@@ -10,6 +10,8 @@ before_script:
 install:
   - pip install pybuilder
   - pip install flake8
+  - pip install mockito
+  - pip install coverage
 script: "pyb --debug -v"
 notifications:
   email:
